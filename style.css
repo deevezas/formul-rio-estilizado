@@ -9,16 +9,16 @@ header {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background-color: cornflowerblue;
     color: white;
     font-family: Cambria, Arial;
+    background-color: rgb(172, 172, 0);
 }
 
 section {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+   height: 5000vh;
 }
 
 form {
@@ -28,15 +28,17 @@ form {
 form div{
     display: flex;
     flex-direction: column;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    padding: 60px;
 }
 
 form input, form textarea {
     outline: unset;
     padding: 20px;
-    min-width: 300px;
-    border: 1px solid cornflowerblue;
+    min-width: 500px;
+    border: 3px solid cornflowerblue;
     border-radius: 20px;
+    background-color:  rgb(206, 206, 206);
 }
 
 form input:focus {
@@ -55,4 +57,7 @@ form input[type=submit] {
 
 form label {
     margin-left: 10px;
+    color: rgb(202, 202, 17);
 }
+
+
